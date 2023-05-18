@@ -6,7 +6,7 @@ import Chat from "./Chat";
 
 // const socket = io.connect("http://localhost:5000");
 
-const socket = io.connect("http://api.simplelivechat.vercel.app");
+const socket = io.connect("https://api-simple-livechat.vercel.app");
 
 const Home = () => {
   const [username, setUsername] = useState("");
