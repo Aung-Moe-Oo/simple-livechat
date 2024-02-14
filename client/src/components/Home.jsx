@@ -7,7 +7,7 @@ import Chat from "./Chat";
 // const socket = io.connect("http://localhost:5000");
 
 const socket = io.connect(
-  "https://api-simple-livechat-production.up.railway.app"
+  "https://chat-app-lnvm.onrender.com"
 );
 
 const Home = () => {
