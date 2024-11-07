@@ -7,7 +7,7 @@ import Chat from "./Chat";
 // const socket = io.connect("http://localhost:5000");
 
 const socket = io.connect(
-  "https://chat-app-lnvm.onrender.com"
+  "http://52.221.213.129:5000"
 );
 
 const Home = () => {
